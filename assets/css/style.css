@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  background: #7b90b2;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.starter-template p{
+	color: #e0e0e0;
+}
+#mainArea1{
+	margin-top: 10px;
+	text-align: center;
+}
+#mainArea{
+	margin-top: 10px;
+}
+#mainArea2 h2{
+	text-align: center;
+}
+.crystals{
+	text-align: center;
+	margin: 15px;
+}
+.results{
+	color: #e0e0e0;
+}
+#instructions{
+	border-bottom: 1px solid #666666;
+}
+.crystals img{
+	width:100px;
+	height:100px;
+}
+#targetNumber{
+	color: #a00404;
+}

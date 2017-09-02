@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Game!</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Crystal Game</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container col-sm-12" id="instructions">
+      <div class="starter-template">
+        <h1>Lets Play A Game!</h1>
+        <p>How to Play:</p>
+		<p>1. There is a randomly generated number.</p>
+		<p>2. The 4 crystals each have a different value.</p>
+		<p>3. Use the crytals to add up to the random number without going over.</p>
+		<p>Tip: Each time the game is refreshed, the random number changes, as well as the value of the crystals!</p>
+      </div>
+    </div>
+    <div class="container col-sm-6" id="mainArea1">
+    	<div class="row">
+    		<div class="randomNumber"></div>
+    		<h1 id="target">Match this number: <span id="targetNumber"></span></h1>
+    		<h2>Your Number So Far: <span id="curScore"></span></h2>
+    	</div>
+    <br>
+    	<div class="row results">
+    		<p id="wins">Total Wins: <span id="winCounter"></span> </p>
+    		<p id="losses">Total Losses: <span id="lossCounter"></span> </p>
+    	</div>
+    </div>
+    <div class="container col-sm-6" id="mainArea2">
+    	<div class="row">
+    		<h2>Use these crystals to match the number!</h1>
+    	</div>
+    	<div class="row crystals">
+	    	<img id="crystal1" src="assets/images/diamond1.jpg" alt="Diamond 1">
+	    	<img id="crystal2" src="assets/images/diamond2.jpg" alt="Diamond 2">
+	    	<img id="crystal3" src="assets/images/diamond3.jpg" alt="Diamond 3">
+	    	<img id="crystal4" src="assets/images/diamond4.jpg" alt="Diamond 4">
+    	</div>
+    </div>
+<script rel="javascript" type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
